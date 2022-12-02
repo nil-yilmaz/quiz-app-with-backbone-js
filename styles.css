@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+body {
+    background: rgb(147, 188, 214);
+}
+
+.container {
+    background: rgb(117, 175, 186);
+    text-align: center;
+    margin-left: 325px;
+    margin-right: 325px;
+    height: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 4rem;
+}
+
+.questionlist {
+    background: rgb(161, 211, 238);
+    height: 400px;
+    padding-top: 10px;
+}
+
+.questionlist li {
+    justify-content: space-around;
+    padding-top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.answered-true {
+    background: rgb(109, 195, 109);
+    text-decoration: line-through;
+
+}
+
+.answered-false {
+    background: rgb(173, 83, 83);
+    text-decoration: line-through;
+
+}
+
+
+.true-btn {
+    background: green;
+    padding: 30px 50px;
+    font-size: 30px;
+}
+
+.false-btn {
+    background: red;
+    padding: 30px 50px;
+    font-size: 30px;
+}
